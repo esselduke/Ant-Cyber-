@@ -1,0 +1,215 @@
+body {
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+#a-tag {
+  text-decoration: none;
+}
+.navbar {
+  background-color: #0f3d3e;
+  position: fixed;
+  margin: 0;
+}
+.nav-items-container {
+  padding: 1.5% 15% 1.5% 0;
+}
+.navigation-logo {
+  width: 10%;
+}
+.linkedin-logo {
+  margin-left: 50px;
+}
+.big-text-title {
+  font-weight: 900;
+  font-size: 3rem;
+}
+.image-icon-title {
+  width: auto;
+  max-width: 40%;
+}
+.p-img-txt {
+  color: #fff;
+  text-decoration: none;
+}
+.image-text {
+  text-align: center;
+  margin: 20px 10px;
+  border: solid #fff;
+  transition: ease-in-out 0.3s;
+}
+.image-text:hover {
+  background-color: #0f3d3e;
+}
+#title-section {
+  background-color: #0f3d3e;
+  background-image: url(../images2/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 15% 10% 5% 16%;
+}
+.sec-image {
+  width: auto;
+  max-width: 100%;
+}
+#second-section {
+  padding: 5% 0 0 0;
+  text-align: center;
+  background-color: #fff;
+}
+.second-section-parag {
+  color: #000;
+}
+.grey-parag {
+  color: #8f8f8f;
+  font-weight: 700;
+}
+.fw-icon {
+  float: left;
+  margin: 17px 20px 20px;
+}
+.bold-para {
+  font-weight: bolder;
+}
+.fw-icon-custom1 {
+  color: green;
+}
+.fw-icon-custom {
+  color: #0f3d3e;
+}
+.h2-second-text {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  font-family: "Roboto-black";
+}
+.box-div {
+  text-align: left;
+  padding: 5% 2%;
+  border: solid #8f8f8f;
+  margin: 20px 0;
+}
+.box-div:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+.main-box-div {
+  padding: 7% 15%;
+}
+.vision-image-div {
+  text-align: center;
+  background-color: #064635;
+}
+.vision-image {
+  max-width: 1024px;
+}
+.vision-h2 {
+  color: #000;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+.slide-img-div {
+  position: relative;
+}
+.slide-oracle {
+  left: 0;
+  position: absolute;
+  width: 20%;
+}
+.slide-microsoft {
+  left: 300px;
+  width: 30%;
+  position: absolute;
+}
+.slide-google {
+  left: 500px;
+  position: absolute;
+  width: 20%;
+}
+.slide-dormakaba {
+  left: 700px;
+  position: absolute;
+  width: 20%;
+}
+.slide-ibm {
+  left: 700px;
+  position: absolute;
+  width: auto;
+}
+.slide-capvalue {
+  left: 700px;
+  position: absolute;
+  width: auto;
+}
+.carousel {
+  height: 300px;
+}
+.contact-sub-div {
+  display: flex;
+  text-align: center;
+  height: 500px;
+  background-image: url(../images/final.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contact-sub-div div {
+  margin: auto;
+}
+.font-rem35 {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+#footer {
+  text-align: center;
+  background-color: #0f3d3e;
+  padding: 1% 15% 3%;
+}
+.logo {
+  width: 15%;
+  display: inline-block;
+}
+.margin {
+  margin-top: 20px;
+}
+.container-grid {
+  grid-auto-columns: 1fr;
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-areas: "a" "b" "c" "d" "e" "f";
+}
+.A {
+  grid-area: a;
+}
+.B {
+  grid-area: b;
+}
+.C {
+  grid-area: c;
+}
+.D {
+  grid-area: d;
+}
+.E {
+  grid-area: e;
+}
+.F {
+  grid-area: f;
+}
+@media (min-width: 1000px) {
+  .container-grid {
+    grid-auto-columns: 1fr;
+    grid-template-areas: "a b c d e f";
+  }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+  .container-grid {
+    grid-auto-columns: 1fr;
+    grid-template-areas: "a b c" "d e f";
+  }
+}
